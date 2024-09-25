@@ -1,0 +1,20 @@
+
+---
+
+### 2. **requirements.yaml**
+
+Here’s the `requirements.yaml` file for creating the environment using Conda.
+
+---
+
+#### requirements.yaml
+
+```yaml
+name: phi3_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - ollama
