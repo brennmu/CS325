@@ -1,0 +1,3 @@
+I downloaded Ollama to get access to the phi3 model. Once Ollama was fully downloaded, using the powershell within VSCode I ran the command "ollama run phi3" which downloaded the phi3 model and then ran it.
+There's my requirements.yaml file, which can create the environment I was using with the command "conda env create -f requirements.yaml" and then they activate it using "conda activate phi3_env"
+Once whoever has the environment set up and activated, they would want to run the python file "python run_phi3.py" and that would then read in the prompts from the prompts.txt file and ask each prompt to the phi3 model and the responses from the phi3 model to each prompt will be output to responses.txt.
